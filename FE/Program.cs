@@ -11,6 +11,8 @@ namespace FE
 {
     public class Program
     {
+        // URL Del API 
+        public static string baseurl = "http://localhost:62460";
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
